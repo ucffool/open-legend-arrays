@@ -18,7 +18,7 @@ $flaws = ["Absent-minded"=>"Your live with your head in the clouds. You might ju
 // Weapons 
 /*  The number represents handedness: 1 handed, 2 handed, or 3 (versatile)*/
 $melee = ["Unarmed Strike"=>1,"Dagger"=>1,"Longsword"=>3,"Battle Axe"=>3,"Spear"=>2,"Mace"=>1,"Quarterstaff"=>2,"Flail"=>2,"Hatchet"=>1,"Scimitar"=>3,"Short Sword"=>1,"Warhammer"=>1,"Maul"=>2,"Glaive"=>2,"Greataxe"=>2,"Greatsword"=>2];
-$ranged = ["Crossbow"=>2,"Hand Crossbow"=>1,"Longbow"=>2,"Shortbow"=>2]
+$ranged = ["Crossbow"=>2,"Hand Crossbow"=>1,"Longbow"=>2,"Shortbow"=>2];
 $swift = ["Unarmed Strike"=>2,"Dagger"=>2,"Hatchet"=>1,"Scimitar"=>1,"Short Sword"=>1,"Hand Crossbow"=>1,"Shortbow"=>1];
 
 // Armor
