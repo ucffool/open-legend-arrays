@@ -19,6 +19,8 @@ $defenses = ["guard"=>"Guard","toughness"=>"Toughness","resolve"=>"Resolve"];
 /*  Level:Wealth Level*/
 $wealth = [0=>0,1=>2,2=>2,3=>2,4=>4,5=>4,6=>4,7=>6,8=>6,9=>6,10=>7];
 
+$dice = [0=>'-',1=>'1d4',2=>'1d6',3=>'1d8',4=>'1d10',5=>'2d6',6=>'2d8',7=>'2d10',8=>'3d8',9=>'3d10',10=>'4d8'];
+
 // Feats that are prerequisites for other feats
 $prefeats = ["Battlefield Defender"=>"Battlefield Defender","Battle Trance"=>"Battle Trance","Boon Focus"=>"Boon Focus","Combat Momentum"=>"Combat Momentum","Defensive Reflexes II"=>"Defensive Reflexes II","Hallucination"=>"Hallucination","Knowledge I"=>"Knowledge I","Lethal Strike I"=>"Lethal Strike I","Multi-Attack Specialist"=>"Multi-Attack Specialist","Multi-Target Boon Specialist II"=>"Multi-Target Boon Specialist II","Overpowering Strike"=>"Overpowering Strike"];
 

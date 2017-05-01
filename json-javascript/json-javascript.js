@@ -15,6 +15,8 @@ $extraordinary = {"Alteration":9,"Creation":9,"Energy":9,"Entropy":9,"Influence"
 /*  Level:Wealth Level*/
 var wealth = {0:0,1:2,2:2,3:2,4:4,5:4,6:4,7:6,8:6,9:6,10:7}
 
+var dice = {0:'-',1:'1d4',2:'1d6',3:'1d8',4:'1d10',5:'2d6',6:'2d8',7:'2d10',8:'3d8',9:'3d10',10:'4d8'}
+
 var defenses = {"Guard":"Guard","Toughness":"Toughness","Resolve":"Resolve"}
 
 // Feats that are prerequisites for other feats
