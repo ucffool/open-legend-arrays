@@ -57,6 +57,20 @@ The following JSON is an attempt at organzing NPC Featsprogrammatically. It's no
     "method": "choose",
     "effect": "boon"
   },
+  "Damage Resistance": {
+    "tier": {
+      "1": "Your defense scores are increased by 3 against the chosen damage type.",
+      "2": "Your defense scores are increased by 6 against the chosen damage type.",
+      "3": "Your defense scores are increased by 9 against the chosen damage type.",
+      "4": "You are immune to damage of the chosen damage type."
+    },
+    "select": [
+      "precise",
+      "forceful"
+    ],
+    "method": "choose",
+    "effect": "defense"
+  },
   "Energy Resistance": {
     "tier": {
       "1": "Your defense scores are increased by 3 against the chosen energy type.",
@@ -107,7 +121,7 @@ The following JSON is an attempt at organzing NPC Featsprogrammatically. It's no
   },
   "Multi-Bane Specialist": {
     "tier": {
-      "1": "You are able to inflict both banes with a single attack. If the banes target different defenses, you choose which defense your attack targets. On a successful attack roll, the target is inflicted with both banes. They each persist independently of one another and must be resisted separately."
+      "1": "You are able to inflict both banes with a single attack. The combined power level of each bane must not exceed the attribute score. If the banes target different defenses, you choose which defense your attack targets. On a successful attack roll, the target is inflicted with both banes. They each persist independently of one another and must be resisted separately."
     },
     "select": "bane",
     "method": "choose"
@@ -130,7 +144,7 @@ The following JSON is an attempt at organzing NPC Featsprogrammatically. It's no
   },
   "Potent Bane": {
     "tier": {
-      "1": "One bane that you can invoke and has a duration of 'resist ends'. When a target makes a resist roll to shake off your invocation of the chosen bane, they have disadvantage 1."
+      "1": "When a target makes a resist roll to shake off your invocation of the chosen bane, they have disadvantage 1."
     },
     "select": "bane",
     "method": "choose"
